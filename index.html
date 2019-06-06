@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+    -->
+
+  <!-- SEO -->
+  <title>WebSlides Documentation: Components</title>
+  <meta name="description"
+    content="Learn WebSlides in simple steps starting from basic to advanced concepts with examples.">
+
+  <!-- URL CANONICAL -->
+  <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+    rel="stylesheet">
+
+  <!-- CSS Base -->
+  <link rel="stylesheet" type='text/css' media='all' href="./static/css/webslides.css">
+
+  <!-- Optional - CSS SVG Icons (Font Awesome) -->
+  <link rel="stylesheet" type='text/css' media='all' href="./static/css/svg-icons.css">
+
+  <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+  <!-- FACEBOOK -->
+  <meta property="og:url" content="/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="WebSlides Components" /> <!-- EDIT -->
+  <meta property="og:description"
+    content="Learn WebSlides in simple steps starting from basic to advanced concepts with examples."> <!-- EDIT -->
+  <meta property="og:updated_time" content="2017-01-04T17:25:31"> <!-- EDIT -->
+  <meta property="og:image" content="./static/images/share-webslides.jpg"> <!-- EDIT -->
+
+  <!-- TWITTER -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
+  <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
+  <meta name="twitter:title" content="WebSlides Components"> <!-- EDIT -->
+  <meta name="twitter:description"
+    content="Learn WebSlides in simple steps starting from basic to advanced concepts with examples."> <!-- EDIT -->
+  <meta name="twitter:image" content="./static/images/share-webslides.jpg"> <!-- EDIT -->
+
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" sizes="16x16" href="./static/images/favicons/favicon.png">
+  <link rel="shortcut icon" sizes="32x32" href="./static/images/favicons/favicon-32.png">
+  <link rel="apple-touch-icon icon" sizes="76x76" href="./static/images/favicons/favicon-76.png">
+  <link rel="apple-touch-icon icon" sizes="120x120" href="./static/images/favicons/favicon-120.png">
+  <link rel="apple-touch-icon icon" sizes="152x152" href="./static/images/favicons/favicon-152.png">
+  <link rel="apple-touch-icon icon" sizes="180x180" href="./static/images/favicons/favicon-180.png">
+  <link rel="apple-touch-icon icon" sizes="192x192" href="./static/images/favicons/favicon-192.png">
+
+  <!-- Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#333333">
+</head>
+
+<body>
+  <header role="banner">
+    <nav role="navigation">
+      <p class="logo"><a href="../index.html" title="WebSlides">WebSlides</a></p>
+      <ul>
+        <li class="facebook">
+          <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+            <svg class="fa-facebook">
+              <use xlink:href="#fa-facebook"></use>
+            </svg>
+            <em>@facebook</em>
+          </a>
+        </li>
+        <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+      </ul>
+    </nav>
+  </header>
+  <main role="main">
+    <article id="webslides">
+
+      <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+      <section>
+        <div class="wrap aligncenter">
+          <h1>幸福居</h1>
+          <p>Happy Living</p>
+          <nav role="navigation">
+            <ul>
+              <li><a href="#slide=4">周遭環境</a></li>
+              <li><a href="">平面圖</a></li>
+              <li><a href="#slide=3">建材表</a></li>
+              <li><a href="#slide=2">基本資料</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+      <section>
+        <div class="wrap">
+          <div class="card-50 bg-white">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/2362030/pexels-photo-2362030.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                alt="Florence, Italy">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h2>
+                幸福居
+              </h2>
+              <p>五甲市區 &mdash; <strong> 高雄市</strong></p>
+              <ul class="description">
+                <li>
+                  <strong class="text-label">地坪:</strong> 30坪<sup>2</sup>
+                </li>
+                <li><strong class="text-label">建坪:</strong> 78坪</li>
+                <li><strong class="text-label">土地分區:</strong> 住三</li>
+
+              </ul>
+              <p>
+                「聯上WE」位在鳳山的文安街與文鳳路口
+                ，車程約5分鐘可至文山商圈、陽明商圈，附近有家樂福、寶雅等商家，車程5分鐘可至學區文德國小、10分鐘可至文山高中附設國中部。附近公園綠地多，步行可至寶業滯洪公園，至最大的澄清湖風景區約車程10分鐘，鄰近榮總、長庚醫院也約10分鐘車程。交通機能則有中山高鼎金系統交流道、國道10號仁武交流道，高鐵左營站約20分鐘車程
+              </p>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- .end .card50 -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h1>建材表</h1>
+          <ul class="flexblock gallery">
+            <li>
+              <a href="#">
+                <figure>
+                  <img alt="Thumbnail"
+                    src="https://images.pexels.com/photos/280209/pexels-photo-280209.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                  <figcaption>
+                    <h2>衛浴</h2>
+                    <p>一個明亮乾爽的衛浴是每個人必不可少的理想空間，特別是馬桶的裝設與使用體驗，往往決定了這間浴室是好是壞</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <figure>
+                  <img alt="Thumbnail"
+                    src="https://images.pexels.com/photos/1663263/pexels-photo-1663263.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                  <figcaption>
+                    <h2>廚具</h2>
+                    <p>系統廚具的概念系統廚具簡單的說就是將廚具的若干組成元素規格化,而每單一元素同時又有許多不同的種類變化</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <figure>
+                  <img alt="Thumbnail"
+                    src="https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                  <figcaption>
+                    <h2>客廳</h2>
+                    <p>客廳是家凝聚向心的起點，也是接待貴賓的門面，陳列擺設往往比其他空間越發精緻，是整體裝修中不可輕忽的主旋律。</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="content-left">
+            <h2>周邊環境: 明星校區</h2>
+            <p>作通西於室是！沒值好家給，來你輕民管個學父股點可從期民回了的，參他有笑來外校就小媽。的馬來。馬山一，給方愛共的飯作造快人如一出氣，路上化……心古因會舞雙山果
+            </p>
+          </div>
+          <!-- .end .content-left -->
+          <div class="content-left">
+            <img src="http://www.tces.tc.edu.tw/tces.png" alt="iPhone">
+          </div>
+          <!-- .end .content-left -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="column">
+              <figure><img class="aligncenter" src="http://www.shingzhu.com.tw/upload/editor/images/01.png"
+                  alt="iPhone"></figure>
+            </div>
+            <div class="column">
+              <h1>
+                平面圖
+              </h1>
+              <p class="text-intro">當主國兒工利可走斯著自不、所充年一</p>
+              <p>青養格會千電入民並本，東同會等發一布前十支即畫平告字種上了。定我廠道；鄉得處團終、力兒格那道兒天說，許舉不的，聽樣發每以媽。物灣有算只戰！高地證斯！實大。</p>
+            </div>
+          </div>
+          <!-- end .grid-->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+    </article>
+  </main>
+  <!--main-->
+
+  <!-- Required -->
+  <script src="./static/js/webslides.js"></script>
+
+  <script>
+    window.ws = new WebSlides();
+  </script>
+
+  <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+  <script defer src="./static/js/svg-icons.js"></script>
+
+</body>
+
+</html>
